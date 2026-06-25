@@ -75,4 +75,73 @@ body {
   color: #00000080;
   line-height: 35px;
   margin-bottom: 20px;
+
+}
+
+/*TEAMMMMMMM*/
+.team{
+  background-color: #F8F8F8;
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding-top: ;
+
+
+
+}
+
+
+p {
+  width: ;
+  height: ;
+  font-weight: ;
+  font-size: ;
+  
+  margin-bottom: 10px;
+  letter-spacing: ;
+  line-height: ;
+  color: ;
+}
+
+h2 {
+  width: ;
+  height: ;
+  font-weight: ;
+  font-size: ;
+  
+  letter-spacing: ;
+  line-height: ;
+  color: ;
+}
+
+.team-members {
+   display: flex;
+  justify-content: center;
+}
+.team-card {
+   width: ;
+  height: ;
+  background-color: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+  padding: 25px 15px;  /*gaaswore es*/
+}
+
+.team-card img {
+   width: px;
+  height: px;
+  border-radius: 50%;
+
+}
+.team-card h3 {
+  width: ;
+  height: ;
+  font-size  ;
+  font-family: ;
+  font-weight: ;
+  color: ;
+  margin-top: ;
+  line-height: ;
+  letter-spacing: ;
+
 }
