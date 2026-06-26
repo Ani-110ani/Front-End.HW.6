@@ -198,137 +198,125 @@ h1 {
   color: #00000080;
   line-height: 35px;
   margin-bottom: 20px;
-
 }
 
 
 
 
 @font-face {
-    font-family: "Gilroy";
-    src: url("fonts/Gilroy-Light.ttf");
-    font-weight: 300;
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-Light.ttf");
+  font-weight: 300;
 }
 
 @font-face {
-    font-family: "Gilroy";
-    src: url("fonts/Gilroy-Regular.ttf");
-    font-weight: 400;
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-Regular.ttf");
+  font-weight: 400;
 }
 
 @font-face {
-    font-family: "Gilroy";
-    src: url("fonts/Gilroy-Medium.ttf");
-    font-weight: 500;
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-Medium.ttf");
+  font-weight: 500;
 }
 
 @font-face {
-    font-family: "Gilroy";
-    src: url("fonts/Gilroy-Bold.ttf");
-    font-weight: 700;
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-Bold.ttf");
+  font-weight: 700;
 }
 
 @font-face {
-    font-family: "Gilroy";
-    src: url("fonts/Gilroy-Heavy.ttf");
-    font-weight: 900;
+  font-family: "Gilroy";
+  src: url("fonts/Gilroy-Heavy.ttf");
+  font-weight: 900;
 }
 
-.team{
-  background-color: #F8F8F8;
+.team {
+  background-color: #f8f8f8;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+<<<<<<< HEAD
   padding: 66px ; 
   
 
+}
 
-  
 
 
 }
 
-
-.our-team-container{
+.our-team-container {
 
   max-width: 800px;
   margin: 0 auto;
+  padding: 66px;
 }
 
-.team-content{
+.team-content {
   margin-bottom: 45px;
-
-  
 }
-
 
 .team-content p {
   /*width: 103px;
   height: 25px;*/
-  font-weight:600;
-  font-size:20px ;
-  font-family: "Open Sans" ,sans-serif;
-  
+  font-weight: 600;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+
   margin-bottom: 10px;
 
   letter-spacing: 0%;
-  line-height:25px ;
-  color:#2E7AF4 ;
+  line-height: 25px;
+  color: #2e7af4;
 }
 
 .team-content h2 {
   /*width:346px ;
   height:62px ;*/
-  font-weight:700 ;
+  font-weight: 700;
   font-size: 50px;
   font-family: "Gilroy", sans-serif;
 
-  
   letter-spacing: 0%;
-  line-height:100% ;
-  color:#000000 ;
+  line-height: 100%;
+  color: #000000;
 }
 
 .team-members {
-   display: flex;
+  display: flex;
   justify-content: center;
   gap: 25px;
-
-
-  
 }
 
 .team-card {
-   width:230px;
+  width: 230px;
   height: 270px;
   background-color: #ffffff;
   border-radius: 8px;
   text-align: center;
   padding-top: 45px;
-
-  
 }
 
 .team-card img {
-   width: 151.17px;
-  height:151.17px;
+  width: 151.17px;
+  height: 151.17px;
   border-radius: 50%;
   object-fit: cover;
-   object-position: center top;
-
+  object-position: center top;
 }
 .team-card h3 {
-  width:191px ;
+  width: 191px;
   height: 18px;
-  font-size:20px ;
-  font-family: "Lato" , sans-serif;
-  font-weight:700 ;
-  color:#555555 ;
+  font-size: 20px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: #555555;
   margin-top: 17px;
-
-  line-height:25px ;
+  line-height: 25px;
   letter-spacing: 0%;
-
 }
 
 
