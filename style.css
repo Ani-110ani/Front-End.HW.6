@@ -198,59 +198,134 @@ h1 {
   color: #00000080;
   line-height: 35px;
   margin-bottom: 20px;
+
 }
-.about {
+
+/*TEAMMMMMMM*/
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-Heavy.ttf");
+    font-weight: 900;
+}
+
+.team{
+  background-color: #F8F8F8;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+  padding: 66px ; /*<--------------------*/
+  
+
+
+  
+
+
 }
-.about p {
-  font-size: 20px;
-  color: #00000080;
-  line-height: 35px;
-  margin-bottom: 20px;
-  font-family: "Open Sans", sans-serif;
+
+.
+.our-team-container{
+
+  max-width: 800px;
+  margin: 0 auto;
 }
-.about-us-info {
-  display: inline-block;
-  width: 45%;
-  vertical-align: top;
+
+.team-content{
+  margin-bottom: 45px;
+
+  
 }
-.about-us-info span {
-  color: #2e7af4;
-  font-size: 20px;
-  font-weight: 600;
-  display: block;
+
+
+.team-content p {
+  /*width: 103px;
+  height: 25px;*/
+  font-weight:600;
+  font-size:20px ;
+  font-family: "Open Sans" ,sans-serif;
+  
   margin-bottom: 10px;
-  font-family: "Open Sans", sans-serif;
+
+  letter-spacing: 0%;
+  line-height:25px ;
+  color:#2E7AF4 ;
 }
-.about-us-info h2 {
+
+.team-content h2 {
+  /*width:346px ;
+  height:62px ;*/
+  font-weight:700 ;
   font-size: 50px;
-  color: #000000;
-  line-height: 100%;
-  margin-bottom: 39px;
-  font-weight: 800;
-  font-family: "Lato", sans-serif;
+  font-family: "Gilroy", sans-serif;
+
+  
+  letter-spacing: 0%;
+  line-height:100% ;
+  color:#000000 ;
 }
-.about-us-section {
-  padding-block: 229px;
+
+.team-members {
+   display: flex;
+  justify-content: center;
+  gap: 25px;
+
+
+  
 }
-.about-us-button {
-  width: 244px;
-  height: 73px;
-  font-weight: 700;
-  font-size: 20px;
-  background-color: #2e7af4;
-  font-family: "Lato", sans-serif;
-  border-radius: 4px;
-  color: #ffffff;
-  margin-top: 56px;
+
+.team-card {
+   width:230px;
+  height: 270px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  text-align: center;
+  padding-top: 45px;
+
+  
 }
-.about-us-photo {
-  width: 632px;
-  height: 745px;
-  border-radius: 20px;
-  display: inline-block;
-  margin-left: 55px;
+
+.team-card img {
+   width: 151.17px;
+  height:151.17px;
+  border-radius: 50%;
   object-fit: cover;
+   object-position: center top;
+
+}
+.team-card h3 {
+  width:191px ;
+  height: 18px;
+  font-size:20px ;
+  font-family: "Lato" , sans-serif;
+  font-weight:700 ;
+  color:#555555 ;
+  margin-top: 17px;
+
+  line-height:25px ;
+  letter-spacing: 0%;
+
 }
