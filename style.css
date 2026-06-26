@@ -11,6 +11,8 @@ body {
 .header {
   padding: 21px 100px;
   background: white;
+  max-width: 1364px;
+  margin: 0 auto;
 }
 
 .header nav {
@@ -200,9 +202,6 @@ h1 {
   margin-bottom: 20px;
 }
 
-
-
-
 @font-face {
   font-family: "Gilroy";
   src: url("fonts/Gilroy-Light.ttf");
@@ -237,20 +236,12 @@ h1 {
   background-color: #f8f8f8;
   max-width: 1200px;
   width: 100%;
+  max-width: 1364px;
   margin: 0 auto;
-
-  padding: 66px ; 
-  
-
-}
-
-
-
+  padding: 66px;
 }
 
 .our-team-container {
-
-
   max-width: 800px;
   margin: 0 auto;
   padding: 66px;
@@ -266,9 +257,7 @@ h1 {
   font-weight: 600;
   font-size: 20px;
   font-family: "Open Sans", sans-serif;
-
   margin-bottom: 10px;
-
   letter-spacing: 0%;
   line-height: 25px;
   color: #2e7af4;
@@ -280,7 +269,6 @@ h1 {
   font-weight: 700;
   font-size: 50px;
   font-family: "Gilroy", sans-serif;
-
   letter-spacing: 0%;
   line-height: 100%;
   color: #000000;
@@ -319,7 +307,6 @@ h1 {
   line-height: 25px;
   letter-spacing: 0%;
 }
-
 
 .about {
   max-width: 1200px;
@@ -376,5 +363,3 @@ h1 {
   margin-left: 55px;
   object-fit: cover;
 }
-
-
