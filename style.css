@@ -238,20 +238,22 @@ h1 {
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
+
   padding: 66px ; 
   
-
-
-  
-
 
 }
 
 
-.our-team-container{
+
+}
+
+.our-team-container {
+
 
   max-width: 800px;
   margin: 0 auto;
+  padding: 66px;
 }
 
 .team-content {
