@@ -79,69 +79,130 @@ body {
 }
 
 /*TEAMMMMMMM*/
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-Medium.ttf");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "Gilroy";
+    src: url("fonts/Gilroy-Heavy.ttf");
+    font-weight: 900;
+}
+
 .team{
   background-color: #F8F8F8;
   max-width: 1200px;
   width: 100%;
   margin: 0 auto;
-  padding-top: ;
+  padding: 66px ; /*<--------------------*/
+  
 
+
+  
 
 
 }
 
+.
+.our-team-container{
 
-p {
-  width: ;
-  height: ;
-  font-weight: ;
-  font-size: ;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.team-content{
+  margin-bottom: 45px;
+
+  
+}
+
+
+.team-content p {
+  /*width: 103px;
+  height: 25px;*/
+  font-weight:600;
+  font-size:20px ;
+  font-family: "Open Sans" ,sans-serif;
   
   margin-bottom: 10px;
-  letter-spacing: ;
-  line-height: ;
-  color: ;
+
+  letter-spacing: 0%;
+  line-height:25px ;
+  color:#2E7AF4 ;
 }
 
-h2 {
-  width: ;
-  height: ;
-  font-weight: ;
-  font-size: ;
+.team-content h2 {
+  /*width:346px ;
+  height:62px ;*/
+  font-weight:700 ;
+  font-size: 50px;
+  font-family: "Gilroy", sans-serif;
+
   
-  letter-spacing: ;
-  line-height: ;
-  color: ;
+  letter-spacing: 0%;
+  line-height:100% ;
+  color:#000000 ;
 }
 
 .team-members {
    display: flex;
   justify-content: center;
+  gap: 25px;
+
+
+  
 }
+
 .team-card {
-   width: ;
-  height: ;
+   width:230px;
+  height: 270px;
   background-color: #ffffff;
   border-radius: 8px;
   text-align: center;
-  padding: 25px 15px;  /*gaaswore es*/
+  padding-top: 45px;
+
+  
 }
 
 .team-card img {
-   width: px;
-  height: px;
+   width: 151.17px;
+  height:151.17px;
   border-radius: 50%;
+  object-fit: cover;
+   object-position: center top;
 
 }
 .team-card h3 {
-  width: ;
-  height: ;
-  font-size  ;
-  font-family: ;
-  font-weight: ;
-  color: ;
-  margin-top: ;
-  line-height: ;
-  letter-spacing: ;
+  width:191px ;
+  height: 18px;
+  font-size:20px ;
+  font-family: "Lato" , sans-serif;
+  font-weight:700 ;
+  color:#555555 ;
+  margin-top: 17px;
+
+  line-height:25px ;
+  letter-spacing: 0%;
 
 }
