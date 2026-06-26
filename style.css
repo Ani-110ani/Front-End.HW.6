@@ -114,6 +114,7 @@ h1 {
   left: 50%;
   display: flex;
   gap: 10px;
+  transform: translateX(-50%);
 }
 
 .dot {
