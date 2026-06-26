@@ -129,4 +129,129 @@ h1 {
   width: 23px;
   height: 11px;
   border-radius: 5.5px;
+  background-color: #ffffff;
+  padding: 50px;
+}
+
+.main-container {
+  max-width: 1364px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.image-gallery,
+.content-side {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+
+.image-gallery {
+  margin-right: 90px;
+}
+
+.image-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 25px;
+}
+
+.img-top {
+  max-width: 483px;
+}
+
+.img-middle {
+  max-width: 446px;
+  margin-left: auto;
+}
+
+.img-bottom {
+  max-width: 458px;
+}
+
+.subtitle {
+  font-family: "Open Sans", sans-serif;
+  color: #2e7af4;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.heading {
+  font-family: "Lato", sans-serif;
+  font-size: 50px;
+  color: #000000;
+  line-height: 100%;
+  margin-bottom: 39px;
+  font-weight: 800;
+}
+
+.circled-text {
+  color: #2563eb;
+}
+
+.text-block p {
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  color: #00000080;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+.about {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.about p {
+  font-size: 20px;
+  color: #00000080;
+  line-height: 35px;
+  margin-bottom: 20px;
+  font-family: "Open Sans", sans-serif;
+}
+.about-us-info {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
+.about-us-info span {
+  color: #2e7af4;
+  font-size: 20px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 10px;
+  font-family: "Open Sans", sans-serif;
+}
+.about-us-info h2 {
+  font-size: 50px;
+  color: #000000;
+  line-height: 100%;
+  margin-bottom: 39px;
+  font-weight: 800;
+  font-family: "Lato", sans-serif;
+}
+.about-us-section {
+  padding-block: 229px;
+}
+.about-us-button {
+  width: 244px;
+  height: 73px;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #2e7af4;
+  font-family: "Lato", sans-serif;
+  border-radius: 4px;
+  color: #ffffff;
+  margin-top: 56px;
+}
+.about-us-photo {
+  width: 632px;
+  height: 745px;
+  border-radius: 20px;
+  display: inline-block;
+  margin-left: 55px;
+  object-fit: cover;
 }
